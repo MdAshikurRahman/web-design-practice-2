@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>HOME</title>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<hr>
+<table>
+    <tr>
+        <td>First Name</td>
+        <td><input type="text" name="first_name" id="firstName" maxlength="15" list="name"></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="last_name" id="lastName" value="Southeast University" size="14" readonly></td>
+    </tr>
+    <tr>
+        <td>Email Address</td>
+        <td><input type="text" name="email_address" id="emailAddress"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="number" name="phone_number" id="phoneNumber" min="0" max="10"></td>
+    </tr>
+    <tr>
+        <td>Gender Information</td>
+        <td>
+            <input type="radio" checked name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea name="address" id="address" rows="8" cols="30"></textarea></td>
+    </tr>
+    <tr>
+        <td>District Name</td>
+        <td>
+            <select name="district" id="district">
+                <option>---Select District Name---</option>
+                <optgroup label="Dhaka Division">
+                    <option value="">Dhaka</option>
+                    <option value="">Narayanganj</option>
+                    <option value="">Tangail</option>
+                    <option value="">Narsingdhi</option>
+                    <option value="">Manikganj</option>
+                    <option value="">Gazipur</option>
+                    </optgroup>
+                <optgroup label="Rangpur Division">
+                    <option value="">Rangpur</option>
+                    <option value="">Dinajpur</option>
+                    <option value="">Gaibandha</option>
+                    <option value="">Panchagarh</option>
+                    <option value="">Takurgoan</option>
+                </optgroup>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Image</td>
+        <td><input type="file" name="image" id="image" accept="image/*" multiple></td>
+    </tr>
+    <tr>
+        <td>Date Of Birth</td>
+        <td><input type="date" name="date_of_birth" id="dateOfBirth"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="checkbox" name="agree" id="agree" value="agree">I agree with all terms and conditions</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" name="btn" id="btn" value="Save Info"></td>
+    </tr>
+</table>
+<datalist id="name">
+    <option value="Md Ashikur Rahman"/>
+    <option value="Bepu Hasan"/>
+    <option value="Royel Bengal Tiger"/>
+    <option value="Md Nasibul Haque"/>
+    <option value="Sizer"/>
+    <option value="Tanvir"/>
+    <option value="Nurul Islam"/>
+</datalist>
+</body>
+</html>
